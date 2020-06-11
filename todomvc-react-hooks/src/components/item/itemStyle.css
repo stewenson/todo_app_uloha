@@ -1,0 +1,51 @@
+.todo-list li .ediButton {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    margin-bottom: 11px;
+    font-size: 20px;
+    color: #cc9a9a;
+    transition: color 0.2s ease-out;
+}
+
+.todo-list li .ediButton:hover {
+    color: #af5b5e;
+}
+
+.todo-list li .ediButton:after {
+    content: 'edit';
+}
+.todo-list li:hover .ediButton {
+    display: block;
+}
+
+.todo-list li .submit {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto 0;
+    margin-bottom: 11px;
+    font-size: 20px;
+    color: #cc9a9a;
+    transition: color 0.2s ease-out;
+}
+
+.todo-list li .submit:hover {
+    color: #af5b5e;
+}
+
+.todo-list li .submit:after {
+    content: 'submit';
+}
+.todo-list li:hover .submit {
+    display: block;
+}
